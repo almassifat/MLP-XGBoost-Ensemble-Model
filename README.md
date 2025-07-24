@@ -29,20 +29,6 @@ Step	Description
 
 Evaluation: accuracy, precision, recall, F1, AUC, curves
 
-📁 File Structure
-
-MLP-XGBoost-Ensemble-Model/
-
-
-├── model_training.ipynb             # Full Colab notebook
-
-├── requirements.txt                   
-
-├── README.md                         
-
-├── /images                           
-
-└── /data                        
 
 📊 Example Output
 
