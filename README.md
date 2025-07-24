@@ -50,6 +50,12 @@ Confusion Matrix
 
 Accuracy vs Loss Curve
 
+# 🧠 Model Highlights
+Uses BERT to capture semantic meaning from reviews
+
+Custom importance weights for CPU/GPU over display
+
+Ensemble boosts performance beyond individual models
 
 # How To Run:
 
@@ -67,9 +73,4 @@ model_training.ipynb
 
 Upload the dataset from Google Drive or update the path in the notebook.
 
-🧠 Model Highlights
-Uses BERT to capture semantic meaning from reviews
 
-Custom importance weights for CPU/GPU over display
-
-Ensemble boosts performance beyond individual models
