@@ -48,7 +48,9 @@ Ensemble boosts performance beyond individual models
 Clone the repo:
 
 git clone https://github.com/yourusername/MLP-XGBoost-Ensemble-Model.git
+
 cd MLP-XGBoost-Ensemble-Model
+
 Install dependencies:
 
 pip install -r requirements.txt
