@@ -36,11 +36,11 @@ MLP-XGBoost-Ensemble-Model/
 
 ├── model_training.ipynb             # Full Colab notebook
 
-├── requirements.txt                   # Python dependencies
+├── requirements.txt                   
 
-├── README.md                         # Project documentation
+├── README.md                         
 
-├── /images                           # Visualizations (optional)
+├── /images                           
 
 └── /data                        
 
@@ -51,7 +51,7 @@ Confusion Matrix
 Accuracy vs Loss Curve
 
 
-To Run:
+# How To Run:
 
 Clone the repo:
 
