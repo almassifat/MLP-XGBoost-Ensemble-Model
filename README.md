@@ -1,64 +1,57 @@
-# MLP-XGBoost-Ensemble-Model
-Compare two products using BERT, MLP, and XGBoost ensemble 
-This project implements a hybrid deep learning and gradient boosting ensemble model to compare two products and determine which one is better — based on specifications, reviews, and pricing. It combines BERT-based embeddings with traditional machine learning to balance interpretability and accuracy.
+# 🚀 MLP + XGBoost Ensemble Model for Product Comparison
 
-📦 Features
-🧠 BERT-based review embedding (DistilBERT/BERT-base)
+[![Python](https://img.shields.io/badge/Python-3.9-blue.svg)]()
+[![PyTorch](https://img.shields.io/badge/Framework-PyTorch-orange.svg)]()
+[![XGBoost](https://img.shields.io/badge/Model-XGBoost-green.svg)]()
+[![License](https://img.shields.io/badge/License-MIT-yellow.svg)]()
 
-🔢 Tabular features (CPU, GPU, RAM, SSD, Rating, Price)
+---
 
-⚙️ Deep learning (MLP) model + XGBoost ensemble
+## 📝 Overview
+
+This project implements a **hybrid deep learning + gradient boosting ensemble model** to compare **two products** and determine which one is better.  
+It leverages **BERT-based embeddings** for textual reviews, combines them with **tabular features**, and uses a **Multi-Layer Perceptron (MLP)** along with **XGBoost** to achieve **high interpretability and accuracy**.
+
+---
+
+## ✨ Features
+
+- 🧠 **BERT-based review embeddings** (DistilBERT / BERT-base)  
+- 🔢 **Tabular features:** CPU, GPU, RAM, SSD, Rating, Price  
+- ⚙️ **MLP deep learning model** + **XGBoost ensemble**  
+- 📈 **Performance visualizations** (confusion matrix, loss & accuracy curves)  
+- 🧮 **Explainability:** Feature importance & SHAP values  
+
+---
+
+## 🧾 Project Pipeline
+
+| Step | Description |
+|------|-------------|
+| 1️⃣ | Data analysis, cleaning, normalization |
+| 2️⃣ | Feature engineering (difference-based numerical features) |
+| 3️⃣ | Text encoding using HuggingFace **BERT** |
+| 4️⃣ | Deep learning **MLP** model for numeric features |
+| 5️⃣ | **XGBoost** classifier for structured data |
+| 6️⃣ | Ensemble via **probability averaging** for final decision |
+| ✅ | Evaluation using accuracy, precision, recall, F1, AUC, and visualization plots |
+
+---
+
+## 🧠 Model Highlights
+
+- ✍️ **Semantic understanding** of reviews using BERT  
+- 🎯 **Custom importance weighting** (CPU/GPU emphasized over display features)  
+- 🔗 **Ensemble learning** improves performance over individual models  
+- 📊 **Explainable AI:** Feature importance and SHAP analysis for decision reasoning  
+
+---
 
 
 
-📈 Performance visualizations and evaluation metrics
+## ⚡ Installation
 
-🧾 Project Overview
-Step	Description
-1️⃣	Data analysis, cleaning, normalization
-
-2️⃣	Feature engineering (difference-based)
-
-3️⃣	Text encoding with HuggingFace BERT
-
-4️⃣	Deep learning MLP model
-
-5️⃣	XGBoost classifier
-
-6️⃣	Ensemble using probability averaging
-
-Evaluation: accuracy, precision, recall, F1, AUC, curves
-
-
-📊 Example Output
-
-Confusion Matrix
-
-Accuracy vs Loss Curve
-
-# 🧠 Model Highlights
-Uses BERT to capture semantic meaning from reviews
-
-Custom importance weights for CPU/GPU over display
-
-Ensemble boosts performance beyond individual models
-
-# How To Run:
-
-Clone the repo:
-
+```bash
 git clone https://github.com/yourusername/MLP-XGBoost-Ensemble-Model.git
-
 cd MLP-XGBoost-Ensemble-Model
-
-Install dependencies:
-
 pip install -r requirements.txt
-
-Open and run the notebook in Colab or locally using Jupyter:
-
-model_training.ipynb
-
-Upload the dataset from Google Drive or update the path in the notebook.
-
-
